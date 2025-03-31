@@ -81,7 +81,7 @@ const Cultos: FC<{ id: string }> = ({ id }) => {
                         height="450"
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        className="w-full h-96 rounded-lg"
+                        className="w-full h-96 px-52"
                     ></iframe>
                 </div>
 
