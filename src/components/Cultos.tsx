@@ -67,7 +67,7 @@ const Cultos: FC<{ id: string }> = ({ id }) => {
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                className="mt-20 max-w-6xl mx-auto"
+                className="mt-20 max-w-full mx-auto"
             >
                 <h3 className="text-3xl font-logo text-[#f8b76c] text-center mb-8">
                     Localização e Transmissões
@@ -76,14 +76,12 @@ const Cultos: FC<{ id: string }> = ({ id }) => {
                 {/* Mapa */}
                 <div className="mb-8">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dYOUR_LOCATION_ID!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zYOUR_ZOOM_LEVEL!5e0!3m2!1sen!2sus!4vYOUR_TIMESTAMP!5m2!1sen!2sus"
-                        width="50%"
-                        height="400"
-                        style={{ border: 0 }}
-                        allowFullScreen
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14638.103248407456!2d-48.044161!3d-15.796009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3308a63e4eb5%3A0x3674bc235b8c3618!2sIgreja%20Paz%20e%20Alegria!5e0!3m2!1spt-BR!2sbr!4v1743455688802!5m2!1spt-BR!2sbr"
+                        width="600"
+                        height="450"
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        className="rounded-lg"
+                        className="w-full h-96 rounded-lg"
                     ></iframe>
                 </div>
 
